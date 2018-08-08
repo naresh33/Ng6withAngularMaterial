@@ -27,5 +27,4 @@ export class CurrentTrainingComponent implements OnInit {
     clearInterval(this.timer);
     this.dialog.open(StopTrainingComponent);
   }
-
 }
